@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Nav from "../components/Nav";
 import Hero from "../components/Hero";
 import Discover from "../components/Discover";
+import Join from "../components/Join";
 
 export default function Home() {
   return (
@@ -9,6 +9,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Discover />
+      <Join />
     </main>
   );
 }

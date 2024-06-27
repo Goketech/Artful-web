@@ -7,21 +7,21 @@ const Why = () => {
         <h2 className='text-3xl mb-12'>Why Join the Waitlist?</h2>
         <div className='grid grid-cols-2 text-xl gap-10'>
           <div className='bg-gray-200 max-w-64 p-5 rounded-xl'>
-            <p>Early Access</p>
+            <p className="mb-3">Early Access</p>
             <span>
               Be among the first to discover and collect the finest artworks
               before they're available to the general public.
             </span>
           </div>
           <div className='bg-gray-200 max-w-64 p-5 rounded-xl'>
-            <p>Exclusive Perks</p>
+            <p className="mb-3">Exclusive Perks</p>
             <span>
               Enjoy special discounts, early-bird promotions, and curated
               recommendations as a waitlist member.
             </span>
           </div>
           <div className='bg-gray-200 p-5 rounded-xl col-span-2'>
-            <p>VIP Treatment</p>
+            <p className="mb-3">VIP Treatment</p>
             <span>
               Receive personalized attention and white-glove service from our
               dedicated art concierge team.

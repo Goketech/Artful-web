@@ -13,9 +13,9 @@ const Footer = () => {
 
     return (
         <div className="text-white">
-            <div className="flex bg-[#18212E] p-20 justify-between">
+            <div className="flex bg-[#18212E] p-10 md:p-20 justify-between">
                 <div className="flex gap-20">
-                    <h1 className="font-snell text-5xl pl-6">Artful</h1>
+                    <h1 className="font-snell text-5xl pl-0 md:pl-6">Artful</h1>
                     {/* <ul className="font-sans text-lg font-bold flex gap-10 items-center">
                         <li>About Us</li>
                         <li>Privacy Policy</li>
@@ -23,7 +23,7 @@ const Footer = () => {
                         <li>Blog</li>
                     </ul> */}
                 </div>
-                <div className="flex gap-10">
+                <div className="flex gap-4 md:gap-10">
                     <Link target="_blank" href="https://www.facebook.com/people/Visit-Artful/61561640190416/">
                         <Image alt="facebook logo" src={'/FB.svg'} width={32} height={32} />
                     </Link>

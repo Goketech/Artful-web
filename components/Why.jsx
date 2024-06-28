@@ -29,7 +29,7 @@ const Why = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/4">
+      <div className="hidden md:block w-1/4">
         <Image
           src="/why.jpg"
           alt="Join the Waitlist"

@@ -10,7 +10,7 @@ const Why = () => {
             <p className="mb-3">Early Access</p>
             <span>
               Be among the first to discover and collect the finest artworks
-              before they're available to the general public.
+              before they&apos;re available to the general public.
             </span>
           </div>
           <div className='bg-gray-200 max-w-64 p-5 rounded-xl'>

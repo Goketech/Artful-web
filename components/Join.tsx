@@ -23,7 +23,7 @@ const Join = () => {
                     <div className="flex gap-4 max-w-80">
                         <div className="px-2 py-1 md:px-5 md:py-2 border-2 border-gray-600 self-start bg-gray-200 rounded">3</div>
                         <div>
-                            <p className="mb-3">Curator's Picks</p>
+                            <p className="mb-3">Curator&apos;s Picks</p>
                             <span>Get personalized recommendations from our expert curators tailored to your tastes.</span>
                         </div>
                     </div>

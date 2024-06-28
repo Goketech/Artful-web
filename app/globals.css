@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -26,10 +25,46 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
 
-.patrick-hand-regular {
-  font-family: "Patrick Hand", cursive;
-  font-weight: 400;
-  font-style: normal;
+  .line-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .line-connector-right {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    height: 3px;
+    width: 108%;
+    background-color: #ddd;
+  }
+
+  .line-connector-top {
+    position: absolute;
+    bottom: 100%;
+    left: 23px;
+    height: 50%;
+    width: 3px;
+    background-color: #ddd;
+  }
+
+  .line-connector-bottom {
+    position: absolute;
+    top: 85%;
+    left: 23px;
+    height: 190%;
+    width: 3px;
+    background-color: #ddd;
+  }
+
+  .line-connector-tip {
+    position: absolute;
+    top: 85%;
+    left: 23px;
+    height: 50%;
+    width: 3px;
+    background-color: #ddd;
+  }
 }

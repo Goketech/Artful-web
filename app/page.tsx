@@ -4,6 +4,7 @@ import Discover from "../components/Discover";
 import Join from "../components/Join";
 import Why from "../components/Why";
 import What from "../components/What";
+import Future from "../components/Future";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Join />
       <Why />
       <What />
+      <Future />
     </main>
   );
 }

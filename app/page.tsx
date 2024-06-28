@@ -6,6 +6,7 @@ import Why from "../components/Why";
 import What from "../components/What";
 import Future from "../components/Future";
 import Waitlist from "../components/Waitlist";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <What />
       <Future />
       <Waitlist />
+      <Contact />
     </main>
   );
 }

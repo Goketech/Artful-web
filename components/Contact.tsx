@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from 'next/link';
 
 const Contact = () => {
   return (
@@ -8,7 +9,7 @@ const Contact = () => {
         </div>
         <div className='flex flex-col justify-center font-patrick items-start'>
             <h2 className='text-5xl mb-10'>Contact Us</h2>
-            <p>Have questions or need assistance? Our dedicated team is here to help. <span className="text-lg font-bold underline underline-offset-4">Contact us</span> today.</p>
+            <p>Have questions or need assistance? Our dedicated team is here to help. <span className="text-lg font-bold underline underline-offset-4"><Link href="mailto:visitartful@gmail.com"> Contact us</Link></span> today.</p>
         </div>
     </div>
   )

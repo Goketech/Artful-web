@@ -16,18 +16,18 @@ const Footer = () => {
             <div className="flex bg-[#18212E] p-20 justify-between">
                 <div className="flex gap-20">
                     <h1 className="font-snell text-5xl pl-6">Artful</h1>
-                    <ul className="font-sans text-lg font-bold flex gap-10 items-center">
+                    {/* <ul className="font-sans text-lg font-bold flex gap-10 items-center">
                         <li>About Us</li>
                         <li>Privacy Policy</li>
                         <li>Careers</li>
                         <li>Blog</li>
-                    </ul>
+                    </ul> */}
                 </div>
                 <div className="flex gap-10">
-                    <Link href="https://www.facebook.com/people/Visit-Artful/61561640190416/">
+                    <Link target="_blank" href="https://www.facebook.com/people/Visit-Artful/61561640190416/">
                         <Image alt="facebook logo" src={'/FB.svg'} width={32} height={32} />
                     </Link>
-                    <Link href="https://x.com/visitartful">
+                    <Link target="_blank" href="https://x.com/visitartful">
                         <Image
                             alt="twitter logo"
                             src={'/Twitter.svg'}
@@ -35,7 +35,7 @@ const Footer = () => {
                             height={32}
                         />
                     </Link>
-                    <Link href="https://www.instagram.com/visitartful/">
+                    <Link target="_blank" href="https://www.instagram.com/visitartful/">
                         <Image alt="instagram logo" src={'/IG.svg'} width={32} height={32} />
                     </Link>
                 </div>

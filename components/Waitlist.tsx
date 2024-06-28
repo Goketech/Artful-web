@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 
 const Waitlist = () => {
   return (
@@ -8,7 +9,7 @@ const Waitlist = () => {
         </div>
         <div className='flex flex-col justify-center font-patrick items-start'>
             <p className='text-5xl mb-10'>Sign Up for the Waitlist</p>
-            <button className='px-6 text-white text-lg py-4 rounded-xl bg-[#18212E]'>Join the Waitlist</button>
+            <Link target="_blank" href='https://tally.so/r/nG12oO'><button className='px-6 text-white text-lg py-4 rounded-xl bg-[#18212E]'>Join the Waitlist</button></Link>
         </div>
     </div>
   )

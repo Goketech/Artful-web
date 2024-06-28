@@ -5,6 +5,7 @@ import Join from "../components/Join";
 import Why from "../components/Why";
 import What from "../components/What";
 import Future from "../components/Future";
+import Waitlist from "../components/Waitlist";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Why />
       <What />
       <Future />
+      <Waitlist />
     </main>
   );
 }

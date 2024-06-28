@@ -7,6 +7,7 @@ import What from "../components/What";
 import Future from "../components/Future";
 import Waitlist from "../components/Waitlist";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Future />
       <Waitlist />
       <Contact />
+      <Footer />
     </main>
   );
 }

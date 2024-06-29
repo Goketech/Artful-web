@@ -15,7 +15,7 @@ const Hero = () => {
 
     return (
         <div className='flex flex-col md:flex-row max-w-7xl 2xl:mx-auto 2xl:px-8'>
-            <div className="w-full md:w-1/2 md:h-1/2">
+            <div className="hidden md:block w-full md:w-1/2 md:h-1/2">
                 <motion.div initial="hidden" animate="visible" variants={imageVariants}>
                     <Image
                         alt="image of an art piece"

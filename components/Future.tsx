@@ -9,7 +9,7 @@ const Future = () => {
             </div>
             <div className="font-patrick p-20">
                 <h2 className="text-3xl mb-12">The Art Marketplace of the Future</h2>
-                <div className="flex flex-col gap-10 md:gap-20  text-xl">
+                <div className="flex flex-col gap-10 md:gap-20  text-base md:text-xl">
                     <div className="flex gap-10 md:gap-20">
                         <div className="relative">
                             <div className="hidden md:block line-connector-right"></div>

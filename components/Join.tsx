@@ -5,7 +5,7 @@ const Join = () => {
         <div className="flex justify-between font-patrick max-w-7xl 2xl:mx-auto 2xl:px-8">
             <div className="p-10 pr-4">
                 <h2 className="text-3xl mb-12">Join the Waitlist</h2>
-                <div className="grid grid-cols-2 text-xl gap-10">
+                <div className="grid grid-cols-2 text-base md:text-xl gap-10">
                     <div className="flex gap-4">
                         <div className="px-2 py-1 md:px-5 md:py-2 border-2 border-gray-600 self-start bg-gray-200 rounded">1</div>
                         <div>

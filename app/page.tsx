@@ -15,7 +15,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Discover />
-      <Join />
+      {/* <Join /> */}
       <Why />
       <What />
       <Future />

@@ -1,7 +1,7 @@
 
 const Discover = () => {
   return (
-    <div className="flex flex-col justify-center items-center p-20 font-patrick">
+    <div className="flex flex-col justify-center items-center p-20 font-patrick max-w-7xl 2xl:mx-auto 2xl:px-8">
         <h2 className="text-3xl">Discover Unique Art</h2>
         <div className="flex gap-10 mt-10">
             <div className="max-w-64 text-xl">

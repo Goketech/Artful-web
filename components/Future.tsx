@@ -3,7 +3,7 @@ import Image from "next/image"
 const Future = () => {
 
     return (
-        <div className="flex">
+        <div className="flex max-w-7xl 2xl:mx-auto 2xl:px-8">
             <div className="hidden md:block w-1/4 mt-20">
                 <Image src="/future.jpg" alt="future" width={100} height={100} className="h-full w-full" />
             </div>

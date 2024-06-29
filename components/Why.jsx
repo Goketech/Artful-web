@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Why = () => {
   return (
-    <div className="flex justify-between mt-20 font-patrick">
+    <div className="flex justify-between mt-20 font-patrick max-w-7xl 2xl:mx-auto 2xl:px-8">
       <div className='p-10 pr-4'>
         <h2 className='text-3xl mb-12'>Why Join the Waitlist?</h2>
         <div className='grid grid-cols-2 text-xl gap-10'>

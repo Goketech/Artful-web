@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const What = () => {
   return (
-    <div className="mt-20 p-10 md:p-20 font-patrick">
+    <div className="mt-20 p-10 md:p-20 font-patrick max-w-7xl 2xl:mx-auto 2xl:px-8">
         <h2 className="text-3xl mb-8 md:mb-12">What You&apos;ll Get</h2>
         <div className="flex gap-10 md:gap-20 text-xl">
             <div className="max-w-64">

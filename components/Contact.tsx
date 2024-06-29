@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Contact = () => {
   return (
-    <div className="flex gap-40 p-10 md:p-0 mt-5 md:mt-20">
+    <div className="flex gap-40 p-10 md:p-0 mt-5 md:mt-0">
         <div className='hidden md:block w-1/3'>
             <Image src="/contact.jpg" alt="contact" width={800} height={400} />
         </div>

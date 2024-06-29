@@ -6,21 +6,21 @@ const Join = () => {
             <div className="p-10 pr-4">
                 <h2 className="text-3xl mb-12">Join the Waitlist</h2>
                 <div className="grid grid-cols-2 text-xl gap-10">
-                    <div className="flex gap-4 max-w-80s">
+                    <div className="flex gap-4">
                         <div className="px-2 py-1 md:px-5 md:py-2 border-2 border-gray-600 self-start bg-gray-200 rounded">1</div>
                         <div>
                             <p className="mb-3">Be the First to Access</p>
                             <span>Get early access to our exclusive art marketplace before it opens to the public.</span>
                         </div>
                     </div>
-                    <div className="flex gap-4 max-w-80">
+                    <div className="flex gap-4">
                         <div className="px-2 py-1 md:px-5 md:py-2 border-2 border-gray-600 self-start bg-gray-200 rounded">2</div>
                         <div>
                             <p className="mb-3">Exclusive Offers</p>
                             <span>Receive special discounts and limited-time promotions as a waitlist member.</span>
                         </div>
                     </div>
-                    <div className="flex gap-4 max-w-80">
+                    <div className="flex gap-4">
                         <div className="px-2 py-1 md:px-5 md:py-2 border-2 border-gray-600 self-start bg-gray-200 rounded">3</div>
                         <div>
                             <p className="mb-3">Curator&apos;s Picks</p>

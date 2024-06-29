@@ -3,9 +3,9 @@ import Image from 'next/image';
 const Why = () => {
   return (
     <div className="flex justify-between mt-20 font-patrick max-w-7xl 2xl:mx-auto 2xl:px-8">
-      <div className='p-3 md:p-10 text-center md:text-left pr-4'>
+      <div className='p-3 md:p-10 text-center md:text-left md:pr-4'>
         <h2 className='text-3xl mb-12'>Why Join the Waitlist?</h2>
-        <div className='grid grid-cols-2 text-base md:text-xl gap-10'>
+        <div className='grid grid-cols-2 text-base md:text-xl gap-10 text-left'>
           <div className='bg-gray-200 max-w-64 p-5 rounded-xl'>
             <p className="mb-3">Early Access</p>
             <span>

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localfont from "next/font/local";
 import { Inter } from "next/font/google";
+import { GoogleAnalytics } from '@next/third-parties/google'
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -34,6 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${snell.variable} ${patrick.variable} ${inter.className}`}>{children}</body>
+      <GoogleAnalytics gaId="G-1FYLYB16VW" />
     </html>
   );
 }

@@ -11,7 +11,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex gap-40 p-3 md:p-0 mt-5 md:mt-0 max-w-7xl 2xl:mx-auto 2xl:px-8">
+    <div className="flex gap-40 p-3 md:p-0 mt-20 md:mt-0 md:mt-0 max-w-7xl 2xl:mx-auto 2xl:px-8">
       <div className='hidden md:block w-1/3'>
         <Image src="/contact.jpg" alt="contact" width={800} height={400} />
       </div>

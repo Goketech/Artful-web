@@ -3,11 +3,11 @@ import Image from "next/image"
 const Future = () => {
 
     return (
-        <div className="flex max-w-7xl 2xl:mx-auto 2xl:px-8">
+        <div className="flex mt-20 md:mt-0 max-w-7xl 2xl:mx-auto 2xl:px-8">
             <div className="hidden md:block w-1/4 mt-20">
                 <Image src="/future.jpg" alt="future" width={100} height={100} className="h-full w-full" />
             </div>
-            <div className="font-patrick p-20">
+            <div className="font-patrick p-3 md:p-20">
                 <h2 className="text-3xl mb-12">The Art Marketplace of the Future</h2>
                 <div className="flex flex-col gap-10 md:gap-20  text-base md:text-xl">
                     <div className="flex gap-10 md:gap-20">
